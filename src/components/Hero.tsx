@@ -52,7 +52,7 @@ const Hero = () => {
 
       {/* Description */}
       <p className="text-center text-lg sm:text-2xl max-w-[280px] sm:max-w-[500px] mx-auto mt-8 text-white/80 px-4">
-      I'm a quick learner and team player, eager to apply my knowledge in a challenging role and gain practical experience while contributing to the success of an organization.
+        I&apos;m a quick learner and team player, eager to apply my knowledge in a challenging role and gain practical experience while contributing to the success of an organization.
       </p>
 
       {/* Profile Image */}
