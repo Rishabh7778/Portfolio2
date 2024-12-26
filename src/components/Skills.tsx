@@ -1,20 +1,26 @@
 import React from 'react';
-import { FaReact, FaCss3, FaBootstrap, FaAws } from "react-icons/fa";
+import { FaReact, FaCss3, FaBootstrap, FaAws, FaNode } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiTypescript } from "react-icons/si";
 import { TiHtml5 } from "react-icons/ti";
 import { DiJavascript1 } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 
 const skillIcons = [
   { icon: <TiHtml5 size="80%" />, label: "HTML5" },
-  { icon: <FaCss3 size="80%" />, label: "CSS3" },  
+  { icon: <FaCss3 size="80%" />, label: "CSS3" },
   { icon: <DiJavascript1 size="80%" />, label: "JavaScript" },
   { icon: <FaBootstrap size="80%" />, label: "Bootstrap" },
+  { icon: <SiMongodb size="80%" />, label: "MongoDB" },
+  { icon: <SiExpress size="80%" />, label: "ExpressJs" },
   { icon: <FaReact size="80%" />, label: "React" },
+  { icon: <FaNode size="80%" />, label: "NodeJs" },
   { icon: <TbBrandNextjs size="80%" />, label: "Next.js" },
   { icon: <SiTypescript size="80%" />, label: "TypeScript" },
   { icon: <FaAws size="80%" />, label: "AWS Cloud" },
+
 ];
 
 const Skills = () => {
